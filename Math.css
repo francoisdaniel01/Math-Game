@@ -13,9 +13,18 @@ body {
 /* Écran de démarrage */
 #start-screen {
   background-color: white;
-  padding: 20px; 
+  padding: 20px;
   border-radius: 10px;
   text-align: center;
+}
+
+
+.paragrephe {
+  font-size: 30px;
+  font-weight: bold;
+  color: rgba(31, 153, 228, 0.903);
+
+
 }
 
 #start-btn {
@@ -38,18 +47,18 @@ body {
 
 h1 {
   color: rgb(255, 0, 0);
-  justify-content: center;
 }
 
-.dans {
-  color: rgb(255, 255, 255);
-  justify-content: center;
+.spi {
+  color: white;
 }
 
-.score, .niveau, .chrono {
+.score,
+.niveau,
+.chrono {
   font-size: 30px;
   font-weight: bold;
-  color: yellow;
+  color: #ffff00;
   background-color: darkred;
   padding: 10px;
   border-radius: 7px;
@@ -66,7 +75,7 @@ div {
 p {
   font-size: 50px;
   font-weight: bold;
-  color: rgba(31, 153, 228, 0.903);
+  color: white;
 }
 
 input {
@@ -77,4 +86,3 @@ input {
   border-radius: 7px;
   border: 2px solid black;
 }
- 
